@@ -1,0 +1,1 @@
+import java.math.BigInteger;import java.util.Scanner;class Main{public static void main(String args[]){Scanner sc=new Scanner(System.in);BigInteger b=new BigInteger("0");int power;while(true){b=sc.nextBigInteger();power=sc.nextInt();if(b.compareTo(BigInteger.ZERO)==0)break;b=b.pow(power);System.out.println(b);}}}
